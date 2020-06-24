@@ -50,7 +50,7 @@ begin {
    }
   
   try {
-  $infoMessage = "PS_v70.ps1 script to install PowerShell v7.0 has begun"
+  $infoMessage = "Name.ps1 script to install PowerShell v7.0 has begun"
   Write-InfoEventLog $infoMessage
 
 }
@@ -60,6 +60,6 @@ catch {
     }
   } 
 end {
-  $infoMessage = "PS_V70.ps1 has successfully finished"
+  $infoMessage = "Name.ps1 has successfully finished"
   Write-InfoEventLog $infoMessage
 }
